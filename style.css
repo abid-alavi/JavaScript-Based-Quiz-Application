@@ -1,0 +1,101 @@
+body,h1,h2,h3,h4,h5,h6 {
+    margin: 0 auto;
+}
+.landing {
+    background-color: aliceblue;
+    padding: 20px 0 100px 0;
+}
+.heading-box {
+    text-align: center;
+    font-family: monospace;
+    background-color: rgba(95, 158, 160, 1);
+    color: white;
+}
+.heading-top {
+    padding: 20px 0;
+    display: inline-block;
+}
+.name-box {
+    float: right;
+    margin: 30px 44px 0 0;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    padding: 2px 10px;
+    font-size: 18px;
+}
+.login-heading {
+    background-color: cadetblue;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid cadetblue;
+    padding: 10px;
+}
+.quiz-text {
+    padding: 50px;
+    background-color: #ffffff;
+    overflow: hidden
+}
+.question-text {
+    display: inline-block;
+}
+.question-align {
+    margin: 30px 0;
+    font-family: monospace;
+    font-size: 16px;
+}
+.nxtQ {
+    letter-spacing: 2px;
+    padding: 5px 20px;
+    background-image: none;
+    transition: background-color 0.3s ease-in 0.1s;
+}
+#frm:hover {
+    background-color: rgba(255, 0, 0, 0.71)!important;
+}
+#frm:active {
+    background-color: rgba(255, 0, 0, 0.71);
+}
+.jsImage {
+    float: right;
+}
+.jsImage img {
+    height: 220px;
+    width: 350px;
+}
+.answer-option {
+    margin-right: 10px!important;
+}
+.label-set {
+    padding: 2px 6px 2px 6px;
+    border-radius: 4px;
+}
+.label-set:hover {
+    background-color: rgba(95, 158, 160, 0.28);
+}
+.label-set:visited {
+    background-color: rgba(95, 158, 160, 0.28);
+}
+.timer {
+    float: right;
+    font-size: 22px;
+    font-family: -webkit-pictograph;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(95, 158, 160, 0.28);
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.login-screen {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 10px;
+}
+.login-box {
+    background-color: rgb(245, 242, 255);
+    padding: 35px 0 20px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 4px;
+}
