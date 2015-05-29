@@ -92,7 +92,7 @@ setQuestion();
         if(selected != "") {
             current++;
         }
-        if (selected === correct) {
+        else if (selected === correct) {
             score++;
             percent = (score / quiz.length) * 100;
             if (percent < 100) {
@@ -102,7 +102,7 @@ setQuestion();
                 percent = percent.toFixed(0);
             }
         }
-        if (current >= quiz.length || seconds == 0) {
+        else if (current >= quiz.length || seconds == 0) {
             clearInterval(countdownTimer);
             document.getElementById('countdown').innerHTML = "Time" + " / " + "00:00";
             result();
@@ -126,11 +126,12 @@ setQuestion();
             remainingSeconds = zero + remainingSeconds;
         }
         document.getElementById('countdown').innerHTML = "Time left" + " / " + minutes + ":" + remainingSeconds;
-        if (seconds == 0) {
+        else if (seconds == 0) {
             clearInterval(countdownTimer);
             document.getElementById('countdown').innerHTML = "Time" + " / " + "00:00";
             result();
-        } else {
+        }
+        else {
             seconds--;
         }
         yourTime = minutes + ":" + remainingSeconds;
